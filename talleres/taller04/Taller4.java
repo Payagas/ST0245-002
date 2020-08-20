@@ -1,31 +1,24 @@
 
-public class Taller4 {
-
-    public static int arrayMax(int [] array, int start) {
-        if(start < 0) return 0;
-        int max, temp;
-        temp =  array[start];
-        max = arrayMax(array, start-1);
-        if(temp > max) max = temp;
-        return max;
-    }
-
-    public static boolean groupSum(int start, int[] nums, int target) {
-        if(start > nums.length-1) return false;
-        if(nums[start]==target)   return true;
-        for(int i=start+1; i<nums.length; i++){
-            int sum = nums[start]+nums[i];
-            if(sum < target){
-                if(sum == target || groupSum(i+1,nums,target-sum))
-                    return true;
-            }
+public class Taller4
+{
+    
+    public static int arrayMax(int[] array, int n) {
+        //n es el numero de objetos en el array
+        int max = 0, temp = 0;
+        max = array[n]; //(te falto aqui un ;)
+        //max es un int distinto cada ciclo
+        //para obtenerlo empezamos desde n y le vamos restando 1
+        //cada vez que se llama la clase
+        if (n > 0) {
+            temp = arrayMax(array, n-1);
+            //aqui en el segundo parametro seria n - 1
+            
+            //asi cada ciclo ve un numero diferente
+            //empezando desde el ultimo numero del array hasta el primero
+            if (temp < max) temp = max;
+            
         }
-        return groupSum(start+1,nums,target);
-    }
-
-    public static long fibonacci(int n) { 
-        if(n < 1) return 0;
-        if(n < 2) return 1;
-        return (fibonacci(n-1)+fibonacci(n-2));
+        return temp;
     }
 }
+
