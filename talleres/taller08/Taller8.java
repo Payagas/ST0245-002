@@ -36,9 +36,9 @@ public class Taller8 {
     }
 
     public static void asignarSolicitudes  
-    (Stack<Node> neveras, Stack<Node> solicitudes){
-        while(!solicitudes.empty()){
-            Node tienda = solicitudes.pop();
+    (Stack<Node> neveras, Queue<Node> solicitudes){
+        while(!solicitudes.isEmpty()){
+            Node tienda = solicitudes.poll();
             System.out.println(tienda.nombre +": ");
             for(int i=0; i<tienda.numero; i++){
                 Node nevera = neveras.pop();
