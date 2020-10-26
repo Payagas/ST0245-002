@@ -36,6 +36,25 @@ public class BinaryTree{
             add(new Node(n),root);
         }
     }
+    
+    String posOrderString(Node node){
+        String ret = "";
+        if(node.left != null)
+            ret += posOrderString(node.left);
+        if(node.right != null)
+            ret += posOrderString(node.right);
+        return ret + " " + node.key;
+    }
+    
+    static void main(String[] args){
+        BinaryTree b = new BinaryTree();
+        String builder = "50 30 24 5 28 45 98 52 60";
+        b.BuildFromString(builder);
+        System.out.println("Desde la String: ");
+        System.out.println(builder);
+        System.out.println("Se retorna la inversa: ");
+        System.out.println(b.posOrderString(b.root));
+    }
 }
 
 class Node{
