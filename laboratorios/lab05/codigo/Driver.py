@@ -5,7 +5,7 @@ ID = []
 X = []
 Y = []
 for l in f:
-    s = l.split(",")
+    s = l.split(" ")
     ID.append(int(s[0]))
     X.append(float(s[1]))
     Y.append(float(s[2]))
