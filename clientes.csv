@@ -1,17 +1,17 @@
-"cliente_NIT";"nombre";"direccion";"telefono";"saldo";"tipo"
-12527;"Drogueria Rusa";"Calle 51";96354782;550000.0;"Negocio internacional"
-24296;"Magicure";"Calle 21";44455335;200000.0;"Negocio familiar"
-28630;"Bendiciones de Ishtar";"Carrera 12";65123023;553200.0;"Negocio familiar"
-28634;"Elixires";"Carrera 5";65874123;503000.0;"Negocio familiar"
-28635;"Alquimia";"Carrera 9";65888123;504400.0;"Negocio familiar"
-28636;"Hierbateros";"Carrera 88";65879933;553000.0;"Negocio familiar"
-28637;"Los chamanes";"Carrera 66";12874123;513000.0;"Negocio familiar"
-28638;"Droguerias la 56";"Carrera 56";32154123;502500.0;"Negocio familiar"
-28639;"Las Pociones";"Carrera 98";66324123;500000.0;"Negocio familiar"
-32578;"Remedios abuela";"Carrera 70";78456698;467000.0;"Negocio familiar"
-38641;"Cruz morada";"Calle 44";12546678;470000.0;"Cadena de farmacias"
-38652;"Drogueria Española";"Calle 10";12345678;600000.0;"Negocio internacional"
-38691;"Suta";"Calle 68";95165499;496000.0;"Cadena de farmacias"
-48474;"Cruz azul";"Carrera 80";87654321;300000.0;"Cadena de farmacias"
-48879;"Droguerias la 33";"Carrera 33";31626395;500000.0;"Negocio familiar"
-51835;"Pastell";"Carrera 5";33668822;100000.0;"Cadena de farmacias"
+cliente_NIT,nombre,direccion,telefono,saldo,tipo
+12527,Drogueria Rusa,Calle 51,96354782,550000.0,Negocio internacional
+24296,Magicure,Calle 21,44455335,200000.0,Negocio familiar
+28630,Bendiciones de Ishtar,Carrera 12,65123023,553200.0,Negocio familiar
+28634,Elixires,Carrera 5,65874123,503000.0,Negocio familiar
+28635,Alquimia,Carrera 9,65888123,504400.0,Negocio familiar
+28636,Hierbateros,Carrera 88,65879933,553000.0,Negocio familiar
+28637,Los chamanes,Carrera 66,12874123,513000.0,Negocio familiar
+28638,Droguerias la 56,Carrera 56,32154123,502500.0,Negocio familiar
+28639,Las Pociones,Carrera 98,66324123,500000.0,Negocio familiar
+32578,Remedios abuela,Carrera 70,78456698,467000.0,Negocio familiar
+38641,Cruz morada,Calle 44,12546678,470000.0,Cadena de farmacias
+38652,Drogueria EspaÃ±ola,Calle 10,12345678,600000.0,Negocio internacional
+38691,Suta,Calle 68,95165499,496000.0,Cadena de farmacias
+48474,Cruz azul,Carrera 80,87654321,300000.0,Cadena de farmacias
+48879,Droguerias la 33,Carrera 33,31626395,500000.0,Negocio familiar
+51835,Pastell,Carrera 5,33668822,100000.0,Cadena de farmacias
